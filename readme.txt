@@ -51,5 +51,5 @@ student of TEC
 
 
 
-any problems you will tell because this is my begginer level project thanking you......
+any problems you will tell because this is my begginer level project thanking you.....
 	
