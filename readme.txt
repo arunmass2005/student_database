@@ -13,7 +13,7 @@ above functions to create delete,update the the database.
 1.add_student():
 	adding student details by this method ,it requires one list
  that will contain what you want to store data,Example:
-	from student_datase.Data_base import Database
+	from Data_base import Database
 	list=['age','section','phone']
 	s=Database()
 	s.add_student(list)
