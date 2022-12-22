@@ -6,7 +6,7 @@ import openpyxl
 
 class Student:
     def __init__(self):
-        self.x_file='student_database/database/students_data.json'
+        self.x_file='database/students_data.json'
         try :
             with open(self.x_file) as s_obj:
                 self.x_data=json.load(s_obj)
@@ -175,8 +175,8 @@ class Student:
 
        
 
-        wb.save('student_database\list students\student_list.xlsx')
-        print('successfully created (stdents_list.xlsx) file in student_database\list students\student_list.xlsx ')
+        wb.save('list students\student_list.xlsx')
+        print('successfully created (stdents_list.xlsx) file in list students\student_list.xlsx ')
 
     def __get_input(self,l_data):
         self.x_name=input('Enter student name :')
